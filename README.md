@@ -11,7 +11,7 @@
 1. Clone repo.
 2. `cp .env.example .env` and fill DB credentials and JWT_SECRET.
 3. `npm install`
-4. `npm run seed` — creates db, sample - roles, company, and CA user:
+4. `npm run seed` — creates db, insert sample - roles, company, and CA user:
    - CA user email: `ca@example.com`, password: `Password123`
 5. `npm start`
 
