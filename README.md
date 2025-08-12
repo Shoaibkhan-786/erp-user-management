@@ -6,15 +6,13 @@
 - Passport (local + jwt)
 - Joi validation
 - bcryptjs (password hashing)
-- JWT tokens with `userId`, `companyId`, `roleId`
-- Soft-delete via `isDeleted` flag
 
 ## Setup
 1. Clone repo.
 2. `cp .env.example .env` and fill DB credentials and JWT_SECRET.
 3. `npm install`
 4. `npm run seed` — creates db, sample - roles, company, and CA user:
-   - CA user email: `ca@example.com`, password: `Password123!`
+   - CA user email: `ca@example.com`, password: `Password123`
 5. `npm start`
 
 ## APIs
